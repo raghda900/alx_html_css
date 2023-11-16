@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset=UTF-8>
+        <meta charset=UTF-8>
+        <title> Tweets </title>
+        <title>
+            Renewable Energy
+        </title>            
+    </head>
+     <body>
+        <header>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="tweets.html" target="_blank">Tweets</a></li>
+            </ul>
+        </header>
+        <main>
+            <article>
+       <h1> Geothermal Basics.</h1>
+       <p>
+        he advantages of renewable energy are numerous and affect the economy, environment, national security, and human health.
+     </p>
+       <h2>Solar Energy.</h2>
+       <p>
+        Renewable energy sources, such as biomass, geothermal resources, sunlight, water, and wind, are natural resources that can be converted into these types of clean.
+     </p>
+       <h3>Wind Energy.</h3>
+       <p>Renewable energy is energy produced from sources like the sun and wind that are naturally replenished and do not run out. Renewable energy can be used for electricity generation, space and water heating and cooling, and transportation.
+       </p>
+       <a href="https://www.energy.gov/eere/wind/wind-energy-basics" target="_blank"><img src="4_wind_Turbines.jpg" alt="" height="100" width="100"></a>
+       <p>Non-renewable energy, in contrast, comes from finite sources that could get used up, such as fossil fuels like coal and oil.
+       </p>
+       <a href="tweets.html"><h2>check out some funny tweet</h2></a>
+       <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">File it under C for Cat. <a href="https://t.co/Ki4DE3ZzE1">pic.twitter.com/Ki4DE3ZzE1</a></p>&mdash; cats with jobs 🛠 (@CatWorkers) <a href="https://twitter.com/CatWorkers/status/1723749221533122923?ref_src=twsrc%5Etfw">November 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">This dog is dressed up as a wind up elephant <a href="https://t.co/CbESYIp93w">pic.twitter.com/CbESYIp93w</a></p>&mdash; Nature is Amazing ☘️ (@AMAZlNGNATURE) <a href="https://twitter.com/AMAZlNGNATURE/status/1723630461597982875?ref_src=twsrc%5Etfw">November 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="dark"><p lang="zxx" dir="ltr"><a href="https://t.co/yfn73YyKhs">pic.twitter.com/yfn73YyKhs</a></p>&mdash; Developer Memes (@develop_memes) <a href="https://twitter.com/develop_memes/status/1619007700896980993?ref_src=twsrc%5Etfw">January 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+                <a href="index.html"><h2>go back</h2></a>
+            </article>
+            <aside>
+                <p>The United States is a resource-rich country with abundant renewable energy resources. The amount available is 100 times that of the nation’s annual electricity need. Read more about renewable energy potential in the United States.
+                </p>
+                <p>
+                    placeholder to add comment thread later.
+                </p>
+            </aside>
+            <article>
+                <h1>TABLE</h1>
+                <table border="3" >
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>lamar</td>
+                            <td>9</td>
+                            <td>Egypt</td>
+                        </tr>                   
+                        <tr>
+                            <td>sama</td>
+                            <td>28</td>
+                            <td>KSA</td>
+                        </tr>
+                        <tr>
+                            <td>dohaa</td>
+                            <td>30</td>
+                            <td>Oman</td>
+                        </tr>
+                        <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </main>
+        
+
+        <footer>Made by raghda - <a href="https://www.linkedin.com/feed/" target="_blank">here</a></footer>
+
+    </body>
+</html>
 
