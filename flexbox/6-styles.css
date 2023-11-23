@@ -216,6 +216,10 @@
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
   }
+  .nav-imet{
+    margin: var(--nav-item-margin);
+
+  }
   
   .nav .nav-link {
     display: block;
