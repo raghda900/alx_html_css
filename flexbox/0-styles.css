@@ -185,7 +185,9 @@
     padding: 0;
     list-style: none;
   }
-  
+  u2.row class{
+    display: flex;
+  }
   
   
   [class*='col-'] {
