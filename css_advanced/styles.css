@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url("images/background.png");
+    background-attachment:fixed;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+button:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+/* HEADER========================== */
+header {
+    padding:30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header .navbar a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+header .navbar a:hover {
+    color: #C271FF;
+}
+
+/* FIRST SECTION========================== */
+.first {
+    padding: 100px;
+}
+.first div h1 {
+    color: #FFF;
+    font-size: 120px;
+    font-weight: 700;
+}
+.first div h1+p {
+    word-spacing: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.first div button {
+    width: 170px;
+    height: 44px;
+    border-radius: 22px;
+    background: #C271FF;
+    border: none;
+    box-shadow: 4px 4px 4px black;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+.first div span {
+    color: #C271FF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.first div h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+.first .visitors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.first .visitors img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.first .visitors div h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px; 
+}
+.first .visitors div p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+/* SECOND SECTION========================== */
+.second {
+    padding: 100px;
+    background: #C271FF;
+}
+.second .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.second #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.second .quote div blockquote {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 33.6px;
+    margin-bottom:30px ;
+}
+.second .quote div blockquote+p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+.second .quote div blockquote+p+p {
+    color: #FFF;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+
+/* THIRD SECTION========================== */
+.videos-list {
+    padding: 100px;
+    background: #fff;
+}
+.videos-list h1 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+.videos-list h1 span {
+    color: #C271FF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.videos-list .videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.video {
+    text-align: start;
+}
+.video h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.video h2+p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.video .ph {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #C271FF;
+}
+.ph img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.ph h3 {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.video .rate {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: #C271FF;
+}
+.rate p {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+/* FOURTH SECTION========================== */
+.membership{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #071629;
+}
+.membership h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+}
+.membership h1 span {
+    color: #C271FF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.membership #smiles {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.membership button {
+    width: 170px;
+    height: 44px;
+    border-radius: 22px;
+    background: #C271FF;
+    border: none;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+#smiles h2 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 20px;
+}
+#smiles p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+/* FIFTH SECTION========================== */
+.FAQ {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #fff;
+}
+.FAQ h1 {
+    color: #071629;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.FAQ .faq {
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 100px;
+}
+.faq h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.faq p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* FOOTER========================== */
+.foot {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: #071629;
+   
+}
+.foot div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.foot p {
+
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.3517;
+    text-align: center;
+}
+
+/* ============== RESPONSIVE ============ */
+@media (min-width:0px) and (max-width:480px) {
+    header .navbar {
+        display: none;
+    }
+    header {
+        padding:30px 90px;
+    }
+    .first .title h1 {
+        text-align: center;
+        font-size: 30px;
+        width: auto;
+    }
+    .first .title p {
+        word-spacing:8px;
+    }
+    .quote {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .visitors {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .videos {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #smiles {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .faq {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .foot div {
+        flex-direction: column;
+        width: auto;
+        gap: 30px; 
+    }
+}
+
+@media (min-width:481px) and (max-width:1050px) {
+    header .navbar {
+        display: none;
+    }
+    header {
+        padding:30px;
+    }
+    .first .title p {
+        word-spacing:8px;
+    }
+    .quote {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .visitors {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .videos {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #smiles {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .faq {
+        padding:30px 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+}
+/* ============== END RESPONSIVE ============ */
