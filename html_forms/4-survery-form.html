@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Survey Form</h1>
+
+    <form action="#" method="post" id="surveyForm" onsubmit="submitForm(event)">
+        <!-- Name field with required attribute -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email field with required and email attributes -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Color preference dropdown with required attribute -->
+        <label for="color">Favorite Color:</label>
+        <select id="color" name="color" required>
+            <option value="" disabled selected>Select a color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+
+        <!-- Time selection with required attribute -->
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <!-- Date selection with required attribute -->
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Survey</button>
+    </form>
+
+    <script>
+        function submitForm(event) {
+            // Add your form submission logic here
+            event.preventDefault(); // Prevents the default form submission
+            alert('Survey submitted!'); // Example: You can replace this with your logic
+        }
+    </script>
+
+</body>
+</html>

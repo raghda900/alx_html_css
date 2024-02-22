@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Feedback Form</h1>
+
+    <form action="#" method="post" id="feedbackForm" onsubmit="submitForm(event)" enctype="multipart/form-data">
+        <!-- Name field with required attribute -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email field with required and email attributes -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Feedback options with checkboxes -->
+        <label>Feedback Options:</label>
+        <label for="excellent">
+            <input type="checkbox" id="excellent" name="feedbackOption" value="excellent"> Excellent
+        </label>
+        <label for="good">
+            <input type="checkbox" id="good" name="feedbackOption" value="good"> Good
+        </label>
+        <label for="average">
+            <input type="checkbox" id="average" name="feedbackOption" value="average"> Average
+        </label>
+        <label for="poor">
+            <input type="checkbox" id="poor" name="feedbackOption" value="poor"> Poor
+        </label>
+
+        <!-- File upload field -->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" required>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <script>
+        function submitForm(event) {
+            // Add your form submission logic here
+            event.preventDefault(); // Prevents the default form submission
+            alert('Feedback submitted!'); // Example: You can replace this with your logic
+        }
+    </script>
+
+</body>
+</html>

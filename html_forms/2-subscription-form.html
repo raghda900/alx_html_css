@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Subscription Form</h1>
+
+    <form action="#" method="post" id="subscriptionForm" onsubmit="submitForm(event)">
+        <!-- Name field with required attribute -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email field with required and email attributes -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Subscription preference with radio buttons -->
+        <label>Subscription Preference:</label>
+        <label for="monthly">
+            <input type="radio" id="monthly" name="subscription" value="monthly" required> Monthly
+        </label>
+        <label for="yearly">
+            <input type="radio" id="yearly" name="subscription" value="yearly" required> Yearly
+        </label>
+
+        <!-- Submit button -->
+        <button type="submit">Subscribe</button>
+    </form>
+
+    <script>
+        function submitForm(event) {
+            // Add your form submission logic here
+            event.preventDefault(); // Prevents the default form submission
+            alert('Subscription submitted!'); // Example: You can replace this with your logic
+        }
+    </script>
+
+</body>
+</html>
